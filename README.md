@@ -23,7 +23,13 @@ Thanks for checking out my repo.
 
 ### Overview
 
-This project aims to predict customer churn and identify high-value customers who are at risk of leaving the bank. By understanding the factors driving customer churn, we can develop effective retention strategies to enhance customer satisfaction and loyalty.
+This project aims to predict customer churn and identify high-value customers who are at risk of leaving a European Bank. The Bank is concerned about an increase in the rate of customer churn associated with its services. They have also found several fraudulent accounts and wish to explore the potential of providing services that give customers extra security. The Bank is requesting:
+
+An investigation into churning patterns and profiles for different customer groups;
+Three distinct customer profiles that are linked to high levels of attrition actions;
+A determination of the strength of the relationship between two attributes, “balance” and “tenure”,and identification of the attributes that could help them to provide an extra level of security for high-value targets.
+
+By understanding the factors driving customer churn, we can develop effective retention strategies to enhance customer satisfaction and loyalty.
 
 ### Goals
 
@@ -87,7 +93,7 @@ F1 Score: The harmonic mean of precision and recall.
 High-Value Client Identification
 High-value targets were identified by calculating the correlation between the “balance” attribute and other attributes in the dataset. Customers with a balance exceeding a threshold of 175,000 were considered high-value targets.
 
-Results
+### Results
 
 The project successfully identified key attributes associated with high levels of attrition actions and created three customer profiles:
 
